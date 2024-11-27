@@ -10,7 +10,10 @@
 // @grant        GM.setValue
 // @grant        GM_addElement
 // @grant        GM_addStyle
+// @grant        GM_getResourceText
 // @run-at document-end
+// @require https://raw.githubusercontent.com/CreativeIT/getmdl-select/master/getmdl-select.min.js
+// @resource GETMDL_SELECT_CSS https://raw.githubusercontent.com/CreativeIT/getmdl-select/master/getmdl-select.min.css
 // @require https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.6/dialog-polyfill.min.js
 // @require https://code.getmdl.io/1.3.0/material.min.js
@@ -22,7 +25,7 @@
 
 (function() {
   'use strict';
-
+  GM_addStyle(GM_getResourceText('GETMDL_SELECT_CSS'));
   
 
 /*! For license information please see bundle.js.LICENSE.txt */
