@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [DEV] Offerup Phones.Trade Bot
 // @namespace    http://tampermonkey.net/
-// @version      24.1127.737
+// @version      24.1127.738
 // @description  try to take over the world!
 // @author       You
 // @match        https://offerup.com/*
